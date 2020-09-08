@@ -1,0 +1,247 @@
+.header{
+	width: 100%;
+}
+
+.carousel-caption {
+	right: auto;
+	bottom: 20%;
+}
+
+.carousel-caption h3 {
+	color: #FFF;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.carousel-caption h2{
+	color: #FFF;
+	font-size: 7em;
+}
+
+.carousel-caption h4 {
+	color: #FFF;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.btn-what{
+	color: #000000;
+	background-color: #fff;
+	border-radius: 0;
+	padding: 25px 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	transition: .5s;
+}
+
+.btn-join{
+	color: #fff;
+	background-color: #000000;
+	border-radius: 0;
+	padding: 25px 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	margin-left: -5px;
+	transition: .5s;
+}
+
+.btn-what:hover{
+	color: #fff;
+	background-color: #000000;
+	transition: .5s;
+}
+
+.btn-join:hover {
+	color: #000000;
+	background-color: #fff;
+	transition: .5s;
+}
+
+.introduce-header{
+	padding: 5.5em 0 6em 0;
+	background: url(../img/bottom-bg.png) no-repeat 50% 101% #222;
+}
+
+
+.title-introducde h3{
+	color: #FFF;
+	font-size: 3em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.title-introducde{
+	text-align: center;
+}
+
+.title-introducde h4{
+	color: #99834D;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0.5em 0;
+}
+
+.title-introducde p{
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.875em;
+	line-height: 1.8em;
+	margin-bottom: 1em;
+	width: 90%;
+	margin: 0 auto 1em auto;
+}
+
+.button{
+	color: #FFF;
+	font-size: 1.2em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	padding: 0.5em 0px 0px 0px;
+}
+
+.title-1{
+	text-align: center;
+}
+
+.title-1 p{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+.center-card{
+	margin: auto;
+}
+
+.title-content .card {
+	border:  none;
+}
+
+.img-card{
+	padding: 5px;
+	border: 3px solid #FFEE31;
+	border-radius: 2px;
+}
+
+.card-img-top{
+	height: 10rem;
+	width: 100%;
+}
+
+hr.lines {
+	margin: auto;
+	width: 100px;
+	position: relative;
+	border-top: 5px solid #FFEE31;
+	margin-top: 15px;
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+hr.lines:before {
+	position: absolute;
+	content: "";
+	display: inline-block;
+
+	height: 10px;
+	width: 10px;
+	top: -13px;
+	border: 10px solid #FFEE31;
+	border-radius: 50%;
+	background: #0071bc;
+	left: 40px;
+	animation: pulse 2s infinite;
+}
+/* pules effect */
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+	}
+}
+@keyframes pulse {
+	0% {
+		-moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+		box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+	}
+	70% {
+		-moz-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+		box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+	}
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+		box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+	}
+}
+
+.hr-style-2{
+	margin: auto;
+	width: 30%;
+	position: relative;
+	border-top: 3px solid #FFEE31;
+	margin-top: 15px;
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+.btn-card-shop{
+	background-color: #FFEE31;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	font-size: 0.8em;
+	padding: 10px 30px;
+	font-weight: bold;
+	color: #fff;
+	transition: .5s;
+}
+
+.border-bottom{
+	border-bottom: 5px solid #dee2e6!important;
+}
+
+.layout-2{
+	margin: auto;
+}
+
+.btn-card-shop-2{
+	background-color: #000;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	font-size: 0.8em;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: bold;
+	transition: .5s;
+}
+
+
+.btn-card-shop-2:hover{
+	-webkit-box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+	color: #fff;
+	transform: scale(1.02);
+}
+
+.btn-card-shop:hover{
+	-webkit-box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+	color: #fff;
+	transform: scale(1.02);
+}
